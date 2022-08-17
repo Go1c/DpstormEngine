@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.unity.ide.rider": "3.0.15",
-    "com.unity.render-pipelines.universal": "12.1.7",
+    "com.unity.render-pipelines.universal": "12.1.7-Dpstorm-0.1",
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.timeline": "1.7.1",
     "com.unity.ugui": "1.0.0",
@@ -33,5 +33,15 @@
     "com.unity.modules.vehicles": "1.0.0",
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.wind": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "Dpstorm",
+      "url": "http://192.168.1.9:4873",
+      "scopes": [
+        "com.dpstorm",
+        "com.unity.render-pipelines.universal"
+      ]
+    }
+  ]
 }

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13964, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EnablePreReleasePackages: 0
+  m_EnablePreReleasePackages: 1
   m_EnablePackageDependencies: 1
   m_AdvancedSettingsExpanded: 1
   m_ScopedRegistriesSettingsExpanded: 1
@@ -25,11 +25,19 @@ MonoBehaviour:
     m_Scopes: []
     m_IsDefault: 1
     m_Capabilities: 7
-  m_UserSelectedRegistryName: 
+  - m_Id: scoped:Dpstorm
+    m_Name: Dpstorm
+    m_Url: http://192.168.1.9:4873
+    m_Scopes:
+    - com.dpstorm
+    - com.unity.render-pipelines.universal
+    m_IsDefault: 0
+    m_Capabilities: 0
+  m_UserSelectedRegistryName: Dpstorm
   m_UserAddingNewScopedRegistry: 0
   m_RegistryInfoDraft:
     m_Modified: 0
     m_ErrorMessage: 
-    m_UserModificationsInstanceId: -846
-    m_OriginalInstanceId: -848
+    m_UserModificationsInstanceId: -830
+    m_OriginalInstanceId: -834
   m_LoadAssets: 0
